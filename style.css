@@ -1,0 +1,694 @@
+@font-face {
+  font-family: "Game of Thrones";
+  src: url("GameofThrones.eot");
+  src: url("GameofThrones.eot?#iefix") format("embedded-opentype"), url("GameofThrones.woff2") format("woff2"), url("GameofThrones.woff") format("woff"), url("GameofThrones.svg#GameofThrones") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Game of Thrones";
+  src: url("GameofThrones_1.eot");
+  src: url("GameofThrones_1.eot?#iefix") format("embedded-opentype"), url("GameofThrones_1.woff2") format("woff2"), url("GameofThrones_1.woff") format("woff"), url("GameofThrones_1.svg#GameofThrones") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* BODY */
+body {
+  /* Body-top */
+  /* section-package */
+  /* section-description */
+  /* section-reviews */
+  /* section-books */
+}
+
+@media screen and (max-width: 320px) {
+  body .body-top .timer .numbers {
+    font-size: 12px;
+    width: 30px;
+  }
+  body .body-top .timer .letters {
+    font-size: 12px;
+  }
+  body .body-top .navbar-brand a img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body .section-top {
+    height: 80vh;
+  }
+  body .timer--top {
+    background-image: url(./img/bg-2.png);
+    background-size: contain;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body .timer--top {
+    display: none;
+  }
+  body .section-top {
+    height: 90vh;
+  }
+  body .section-top h5 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+}
+
+body .body-top {
+  height: 100vh;
+  /* NAVBAR TOP */
+}
+
+body .body-top .timer p {
+  font-weight: bold;
+}
+
+body .body-top .timer .numbers {
+  background: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 850px) {
+  body .body-top .wrapper {
+    padding: 0 10%;
+  }
+  body .body-top .price {
+    width: 30%;
+    bottom: -25px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body .body-top .wrapper {
+    padding: 0 2%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body .body-top .navbar .hamburger-menu {
+    display: inline-block;
+  }
+  body .body-top .navbar .navbar-logo {
+    font-size: 15px;
+  }
+  body .body-top .navbar .navbar-logo .search-bar {
+    display: none;
+  }
+  body .body-top .navbar .navbar-user-cont p {
+    display: none;
+  }
+  body .body-top .navbar .navbar-user-cont .input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .body-top .navbar .navbar-user-cont .search-bar input {
+    display: none;
+  }
+  body .body-top .navbar .navbar-user-cont .search-bar .fa-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .body-top .section-top .content h5 {
+    font-size: 13px;
+  }
+  body .body-top .section-top .content .price {
+    width: 35%;
+    bottom: -15px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body .body-top .navbar .hamburger-menu {
+    display: none;
+  }
+  body .body-top .navbar .navbar-logo .search-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .body-top .navbar .navbar-user-cont .search-bar input {
+    display: none;
+  }
+  body .body-top .navbar .navbar-user-cont .search-bar .fa-search {
+    display: none;
+  }
+  body .body-top .section-top .content .price {
+    width: 24%;
+    bottom: 10px;
+  }
+}
+
+body .body-top .navbar .hamburger-menu {
+  cursor: pointer;
+}
+
+body .body-top .navbar .hamburger-menu .bar1,
+body .body-top .navbar .hamburger-menu .bar2,
+body .body-top .navbar .hamburger-menu .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #007292;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body .body-top .navbar .navbar-logo img {
+  height: 40px;
+  width: 60px;
+}
+
+body .body-top .navbar .navbar-logo .logo-text {
+  color: #69adbf;
+}
+
+body .body-top .navbar .navbar-logo .logo-text span {
+  font-weight: bold;
+  color: 057595;
+}
+
+body .body-top .navbar .navbar-logo .search-bar input {
+  background: #f9f9f9;
+  border-color: #ccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0px;
+  height: 41px;
+}
+
+body .body-top .navbar .navbar-logo .search-bar .fas {
+  background: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid grey;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #007192;
+}
+
+body .body-top .navbar .navbar-user-cont {
+  color: #007192;
+  font-weight: 500;
+}
+
+body .body-top .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+body .body-top .change .bar2 {
+  opacity: 0;
+}
+
+body .body-top .change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+body .body-top .section-top {
+  background-image: url(./img/background-top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+body .body-top .section-top .content h5 {
+  position: relative;
+  width: 100%;
+  font-family: "Game of Thrones";
+  letter-spacing: 1.5px;
+}
+
+body .body-top .section-top .content h5:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  line-height: 0.95em;
+  background: -webkit-gradient(linear, left bottom, left top, from(0), color-stop(80%, transparent));
+  background: linear-gradient(0deg, 0, transparent 80%);
+  color: #f7c285;
+  opacity: 0.5;
+}
+
+body .body-top .section-top .content .card {
+  border: 0;
+  position: relative;
+  height: 50vh;
+  background: inherit;
+}
+
+body .body-top .section-top .content .card img {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+body .body-top .section-top .content .card .price {
+  background: #cb2a13;
+  position: absolute;
+  left: 45%;
+  z-index: 3;
+  height: 100px;
+  color: white;
+  border-radius: 15px;
+}
+
+body .body-top .section-top .content .card .price .price--cut {
+  font-size: 16px;
+  position: relative;
+  z-index: 100;
+  padding-top: 2px;
+}
+
+body .body-top .section-top .content .card .price .price--cut::after {
+  content: "";
+  position: absolute;
+  background: url(./img/sword.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+body .body-top .section-top .content .card .price .price--offer {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+body .body-top .section-top .timer--section .timer-box {
+  position: absolute;
+  bottom: 15vh;
+  right: 0;
+  width: 100%;
+  background: #696969;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+body .body-top .section-top .timer--section .timer-box p {
+  color: white;
+  font-weight: 450;
+}
+
+body .body-top .section-top .timer--section .timer-box .timer-content .numbers {
+  width: 31px;
+}
+
+body .body-top .section-top .timer--section .timer-box .timer-content .letters {
+  font-size: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 320px) {
+  body .package .bird-logo p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body .section-package .package .cart .pret-cos {
+    display: none;
+  }
+  body .section-package .package .cart .button {
+    width: 100%;
+  }
+  body .section-package .grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  body .section-package .grid div span {
+    height: 40%;
+  }
+  body .section-package .grid div p {
+    height: 60%;
+  }
+  body .section-package .orders-box {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body .section-package .package-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .section-package .package-logo .bird-logo,
+  body .section-package .package-logo .cart {
+    width: 50%;
+  }
+  body .section-package .package-logo .bird-logo .pret-cos,
+  body .section-package .package-logo .cart .pret-cos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    text-align: center;
+  }
+  body .section-package .package-logo .bird-logo .pret-cos .pret-barat,
+  body .section-package .package-logo .cart .pret-cos .pret-barat {
+    padding: 0 10px;
+    margin-top: 25px;
+    position: relative;
+  }
+  body .section-package .package-logo .bird-logo .pret-cos .pret-barat::after,
+  body .section-package .package-logo .cart .pret-cos .pret-barat::after {
+    content: "";
+    position: absolute;
+    background-image: url(./img/sword.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body .section-package .package-logo .bird-logo .pret-cos .pret-oferta,
+  body .section-package .package-logo .cart .pret-cos .pret-oferta {
+    color: #cb2a13;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  body .section-package .package-logo .button {
+    width: 60%;
+  }
+  body .section-package .grid {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 10px;
+  }
+  body .section-package .grid div span {
+    height: 50%;
+    padding-top: 25px !important;
+  }
+  body .section-package .grid div p {
+    height: 50%;
+  }
+}
+
+body .section-package .package .shield__left {
+  background-image: url(./img/shield-right.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body .section-package .package .shield__right {
+  background-image: url(./img/shield-left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+body .section-package .package .bird-logo p {
+  font-weight: bold;
+}
+
+body .section-package .package .bird-logo p img {
+  width: 30px;
+  height: 25px;
+}
+
+body .section-package .package .cart .button {
+  background: #cb2a13;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 0;
+}
+
+body .section-package .package .cart button:focus {
+  outline: none;
+}
+
+body .section-package .orders-box {
+  border: 1px solid grey;
+  color: grey;
+  font-size: 12px;
+}
+
+body .section-package .orders-box .phone-number {
+  font-weight: bold;
+  color: black;
+}
+
+body .section-package .orders-box span {
+  font-weight: bold;
+}
+
+body .section-package .details {
+  background: #ba813f;
+}
+
+body .section-package .details .grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+  background: white;
+}
+
+body .section-package .details .grid div {
+  text-align: center;
+  background: #ba813f;
+  height: 140px;
+}
+
+body .section-package .details .grid div span {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+body .section-package .details .grid div p {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  body .section-description p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body .section-description {
+    height: 65vh;
+    position: relative;
+  }
+}
+
+body .section-description {
+  background-image: url(./img/corb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+body .section-description .expand-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  background: black;
+  -webkit-box-shadow: 0px -36px 43px 13px rgba(0, 0, 0, 0.97);
+  box-shadow: 0px -36px 43px 13px rgba(0, 0, 0, 0.97);
+}
+
+body .section-description .expand-button button {
+  background: inherit;
+  color: #cecccc;
+  border: 0;
+}
+
+body .section-description .expand-button button:focus {
+  outline: none;
+}
+
+body .section-description p {
+  line-height: 20px;
+}
+
+body .expand {
+  height: 100%;
+}
+
+body .section-reviews {
+  color: black;
+  height: auto;
+}
+
+body .section-reviews .testimonials .dragon-left {
+  background-image: url(./img/dragon-left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .section-reviews .testimonials .dragon-right {
+  background-image: url(./img/dragon-right.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .section-reviews .testimonials .post-wrapper {
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+}
+
+body .section-reviews .testimonials .post-wrapper .slick-arrow {
+  display: none !important;
+}
+
+body .section-reviews .testimonials .post-wrapper .post {
+  height: 200px;
+  width: auto;
+  display: inline-block;
+}
+
+body .section-reviews .buttons .circle {
+  background-color: #fff;
+  border: 1px solid grey;
+  height: 15px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 15px;
+}
+
+@media screen and (min-width: 720px) {
+  body .books-title p {
+    font-size: 30px;
+  }
+}
+
+body .section-books {
+  height: 100vh;
+  background-image: url(./img/background-books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .section-books .books-title {
+  height: 20vh;
+}
+
+body .section-books .books-title p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: "Game of Thrones";
+}
+
+body .section-books .books-pack {
+  height: 80vh;
+}
+
+body .section-books .books-slider {
+  height: 390px;
+  overflow: hidden;
+  padding: 0 5px;
+  margin: auto auto;
+}
+
+body .section-books .books-slider .inline-block {
+  display: inline-block;
+  overflow: hidden;
+  width: 200px;
+  height: 390px;
+  margin: 0 5px;
+}
+
+body .section-books .books-slider .inline-block .img {
+  background-size: cover;
+  height: 340px;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+
+body .section-books .books-slider .inline-block .img--cartea1 {
+  background: url(./img/cartea1.png);
+}
+
+body .section-books .books-slider .inline-block .img--cartea2 {
+  background: url(./img/cartea2.png);
+}
+
+body .section-books .books-slider .inline-block .img--cartea3 {
+  background: url(./img/cartea3.png);
+}
+
+body .section-books .books-slider .inline-block .img--cartea4 {
+  background: url(./img/cartea4.png);
+}
+
+body .section-books .books-slider .inline-block .img--cartea5 {
+  background: url(./img/cartea5.png);
+}
+
+body .section-books .books-slider .inline-block .titlu {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Game of Thrones";
+  font-size: 10px;
+}
+
+body .section-books .books-slider .inline-block .titlu span {
+  font-size: 15px;
+}
+
+body .section-books .fas {
+  height: 50px;
+  width: 50px;
+  background: #bbc8d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #364a56;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
